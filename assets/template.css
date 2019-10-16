@@ -1,0 +1,247 @@
+.header-content {
+    height : 100px;
+    background-color: #79B791;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-content h2 {
+    color: 	white;
+    font-family: Lato, 'Open Sans', sans-serif;
+    font-size:3rem;
+    font-weight:700;
+    line-height:1;
+    display: inline-block;
+    padding-top:20px;
+    margin:auto;
+    width: 100%;
+    text-align: center;
+
+}
+.toptown {
+    background-color: #79B791;
+}
+
+#inje_logo {
+    position: relative;
+    float: left;
+    height: 70px;
+    display: inline;
+    padding-top:20px;
+    padding-left:20px;
+}
+
+#ida_logo {
+    float: right;
+    height: 70px;
+    padding-top:20px;
+    display: inline;
+    padding-right:20px;
+    width: 250px;
+    height: auto;
+}
+.body {
+    padding-top:10px;
+}
+
+.white-bg {
+    background-color:white;
+    padding-top:10px;
+    border-radius: 2px 2px 5px 5px;
+    box-sizing: border-box;
+    box-shadow: rgb(240, 240, 240) 5px 5px 5px 0px;
+    border: thin solid rgb(240, 240, 240);
+    width: 98%;
+}
+
+.selector {
+    background-color: #85BD9B;
+    border-radius: 3px 3px 3px 3px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size:24px;
+    line-height:1;
+    padding-top:15px;
+    padding-bottom:10px;
+    text-align:center;
+}
+
+.button-holder {
+    padding-top:10px;
+    text-align:center;
+    padding-bottom:20px;
+}
+.button{
+    background-color: #74b9ff;
+    border: none;
+    color: white;
+    padding: 16px 20px;
+    text-align: center;
+    font-size: 16px;
+    margin: 2px 2px;
+    opacity: 1;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+.button:hover {opacity: 0.6}
+
+.radio-buttons{
+    text-align:center;
+}
+
+.note-tag {
+    box-sizing:border-box;
+    border: thin solid #0094C6;
+    margin-left:20px;
+    margin-right:20px;
+    margin-bottom:20px;
+    padding-top:10px;
+    padding-bottom:1px;
+    padding-right:10px;
+    padding-left:10px;
+    font-size:13px;
+    text-align:justify;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: rgb(240, 240, 240) 5px 5px 5px 0px;
+    background-color: #FFF1D0;
+    border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+    border-width:2px;
+}
+
+.note-tag:hover {opacity:0.6}
+
+.graph {
+    display:inline-block;
+    width: 50%;
+}
+
+.axis-graph{
+    width:100%;
+    float:right;
+    padding: 2% 2% 2% 2%;
+    height: 25px;
+
+}
+.section-2{
+    padding-top:20px;
+}
+
+.radio_buttons{
+    font-family: 'Open Sans', sans-serif;
+    font-size:16px;
+    display:inline-block;
+    width:60%;
+
+}
+
+.section-3{
+    padding-top:20px;
+}
+
+
+.note-tag-1 {
+    box-sizing:border-box;
+    color: #FFF;
+    border: thin solid #0094C6;
+    margin-left:20px;
+    margin-right:20px;
+    margin-bottom:20px;
+    padding-top:10px;
+    padding-bottom:1px;
+    padding-right:10px;
+    padding-left:10px;
+    font-size:13px;
+    text-align:justify;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: rgb(240, 240, 240) 5px 5px 5px 0px;
+    background-color: #D55672;
+    border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+    border-width:2px;
+    position: center;
+}
+
+.note-tag-1:hover {opacity:0.6}
+
+.selector-sub {
+    background-color: #ABD1B5;
+    border-radius: 3px 3px 3px 3px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size:24px;
+    line-height:1;
+    padding-top:15px;
+    padding-bottom:10px;
+    text-align:center;
+}
+.upload-area {
+    width: 90%;
+    height: 60px;
+    line-height: 60px;
+    border-width: 1px;
+    border-style: dashed;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px;
+}
+
+.boxy {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #74B9FF;
+    border-radius: 3px 3px 3px 3px;
+    padding: 15px 15px 15px 15px;
+    text-align:center;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.boxy-main {
+    text-align: center;
+    color: white;
+    font-size: 34px;
+    font-family: Lato, 'Open Sans', sans-serif;
+    line-height:1;
+    font-weight: 700;
+
+}
+.boxy-low {
+    padding-top: 5px;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    line-height:1;
+    font-weight: 700;
+
+}
+.confusion {
+    width: 250px;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: auto;
+    display: inline-block;
+}
+.auc {
+    width: 350px;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 10px;
+    display: inline-block;
+}
+
+
+
