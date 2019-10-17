@@ -233,14 +233,10 @@
     display: inline-block;
 }
 .auc {
-    width: 350px;
+    width: 500px;
     height: auto;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-right: auto;
-    margin-left: auto;
-    padding-top: 10px;
-    display: inline-block;
+    margin: auto;
+    display: block;
 }
 
 

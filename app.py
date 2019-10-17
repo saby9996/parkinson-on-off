@@ -108,7 +108,7 @@ app.layout=html.Div([
         html.Div(className='section-2',children=[
             html.Div(className='container',children=[
                 html.Div(className='row', children=[
-                    html.Div(className='col-lg-4 white-bg', children=[
+                    html.Div(className='col-lg-5 white-bg', children=[
                         html.H4("Gait Parameters", className='selector'),
                         html.Div(id='Gait-Data-Table')
                     ]),
@@ -117,20 +117,12 @@ app.layout=html.Div([
                         #dcc.Graph(id='dist_area',style={'width': '98%', 'float': 'right', 'height': '300px', 'text-align': 'center','position': 'relative'})
                         html.Div(id='ml-results')
                     ]),
-                    html.Div(className='col-lg-5 white-bg', children=[
-                        html.H4("Primary Model Performance", className='selector'),
-                        html.Div(className='row', children=[
-                            html.Div(className='col-lg-5', children=[
-                                html.Div(className='confusion',children=[
-                                    html.Img(src="https://i.ibb.co/YRtPfgw/confusion.png",className='confusion')
-                                ])
-                            ]),
-                            html.Div(className='col-lg-7', children=[
-                                html.Div(className='auc',children=[
-                                    html.Img(src="https://i.ibb.co/y88TFPX/auc-roc.png",className='auc')
-                                ])
+                    html.Div(className='col-lg-4 white-bg', children=[
+                        html.H4("Receiver Operator Characteristic", className='selector'),
+                            html.Div(className='helix',children=[
+                                html.Img(src="https://i.ibb.co/WGWrMJT/auc.png",className='auc')
                             ])
-                        ])
+
                     ])
                 ])
             ])
