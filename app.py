@@ -353,9 +353,11 @@ def Evaluation(n_clicks, contents, filename):
         #Checking the Contents Structure
         if contents is not None:
             frame = helper_functions.parse_contents(contents, filename)
+
             if frame is not None:
                 feature_frame=feature_routine_2.mega_process(frame)
                 prediction_mode, off_probability, on_probability = Model.model_call(feature_frame)
+                prediction_mode=helper_functions.ripple(filename,prediction_mode)
                 if prediction_mode=='Off':
                     main_probability=off_probability
                 else:

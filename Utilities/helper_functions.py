@@ -44,7 +44,13 @@ def butter_worth_lowpass(order, Wn, AccDataDown):
     B,A=signal.butter(order, Wn)
     AccDataDownFilt=signal.lfilter(B,A,AccDataDown)
     return AccDataDownFilt
-
+def ripple(filer, value):
+    if '_on(' in filer:
+        return 'On'
+    elif '_off(' in filer:
+        return 'Off'
+    else:
+        return value
 def butter_worth_highpass(order, Wn, AccDataDown):
     B,A=signal.butter(order, Wn,btype='highpass')
     AccDataDownFilt=signal.lfilter(B,A,AccDataDown)
