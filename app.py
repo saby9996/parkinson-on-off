@@ -49,7 +49,7 @@ app.layout=html.Div([
                         html.H2("Parkinson's Disease [On - Off]", id='title'),
                     ]),
                     html.Div(className='col-lg-2', children=[
-                        html.Img(src="https://i.ibb.co/513BZkn/Bigger-Trans.png", id='ida_logo')
+                        html.Img(src="https://i.ibb.co/0yTjMz4/Inje.png", id='ida_logo')
                     ])
 
 
@@ -357,7 +357,7 @@ def Evaluation(n_clicks, contents, filename):
             if frame is not None:
                 feature_frame=feature_routine_2.mega_process(frame)
                 prediction_mode, off_probability, on_probability = Model.model_call(feature_frame)
-                prediction_mode=helper_functions.ripple(filename,prediction_mode)
+                prediction_ripple=helper_functions.ripple(filename,prediction_mode)
                 if prediction_mode=='Off':
                     main_probability=off_probability
                 else:
@@ -369,7 +369,7 @@ def Evaluation(n_clicks, contents, filename):
                     html.Div(className='container', children=[
                         html.Div(className='row', children=[
                             html.Div(className='boxy',children=[
-                                html.H4(prediction_mode + " State",className='boxy-main'),
+                                html.H4(prediction_ripple + " State",className='boxy-main'),
                                 html.H4("State of The Patient",className='boxy-low')
                             ])
                         ]),
