@@ -43,13 +43,13 @@ app.layout=html.Div([
             html.Div(className='container',children=[
                 html.Div(className='row toptown',children=[
                     html.Div(className='col-lg-2', children=[
-                        html.Img(src="https://i.ibb.co/0yTjMz4/Inje.png", id='inje_logo')
+                        html.Img(src="https://i.ibb.co/513BZkn/Bigger-Trans.png", id='inje_logo')
                     ]),
                     html.Div(className='col-lg-8', children=[
                         html.H2("Parkinson's Disease [On - Off]", id='title'),
                     ]),
                     html.Div(className='col-lg-2', children=[
-                        html.Img(src="https://i.ibb.co/0yTjMz4/Inje.png", id='ida_logo')
+                        html.Img(src="https://i.ibb.co/513BZkn/Bigger-Trans.png", id='ida_logo')
                     ])
 
 
